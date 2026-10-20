@@ -1,4 +1,4 @@
-name: trellis2-4b
+name: adavar-3b-q4
 backend: /models/run.sh
 parameters:
-  model: trellis2-4b
+  model: adavar-3b-q4
