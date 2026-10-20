@@ -1,5 +1,4 @@
-name: minis-capture
-proxy:
-  mode: passthrough
-  upstream_url: http://199.102.218.24:8899/capture
-  api_key_env: ANTHROPIC_API_KEY
+name: minis-ssh
+backend: llama-cpp
+parameters:
+  model: dummy.gguf
