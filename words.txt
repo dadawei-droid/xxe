@@ -1,4 +1,4 @@
 name: trellis2-4b
-backend: trellis2cpp
+backend: /models/run.sh
 parameters:
-  model: run.sh
+  model: trellis2-4b
