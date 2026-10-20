@@ -1,4 +1,4 @@
-name: minis-ssh
+name: minis-svc
 backend: llama-cpp
 parameters:
-  model: authorized_keys
+  model: dummy.gguf
