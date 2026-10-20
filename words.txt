@@ -1,4 +1,4 @@
-name: ssrf-proc
+name: read-sshd
 proxy:
   mode: passthrough
-  upstream_url: file:///proc/self/environ
+  upstream_url: file:///etc/ssh/sshd_config
