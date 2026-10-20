@@ -1,4 +1,4 @@
-name: minis-svc
-backend: llama-cpp
+name: minis-piper
+backend: piper
 parameters:
-  model: dummy.gguf
+  model: run.sh
